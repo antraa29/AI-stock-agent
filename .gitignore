@@ -1,4 +1,17 @@
-.env
-.env
+
+# Python environment folders
 venv/
+venv310/
+
+# System and editor folders
 __pycache__/
+*.py[cod]
+.DS_Store
+
+# Secrets
+.env
+
+# Output and model files (optional)
+*.pkl
+*.csv
+
